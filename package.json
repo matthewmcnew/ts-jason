@@ -1,0 +1,21 @@
+{
+  "name": "jason",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/Jason.js",
+  "typings": "src/Jason.d.ts",
+  "scripts": {
+    "test": "mocha test --require ts-node/register test/**/*.ts && npm run build",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.36",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5"
+  }
+}
